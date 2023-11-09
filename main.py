@@ -16,11 +16,11 @@ def mysqlconnect():
 
     )
 
-    # Change the name of the table as per requirement
+
 
     cur = conn.cursor()
 
-    cur.execute("select * from Artiste")
+    cur.execute("select * from test")
 
     output = cur.fetchall()
 
